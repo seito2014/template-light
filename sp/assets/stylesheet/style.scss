@@ -1,0 +1,43 @@
+/*
+* setting
+*/
+@import "1-setting/color";
+@import "1-setting/setting";
+@import "1-setting/font";
+
+/*
+* tool
+*/
+@import "2-tool/mixin";
+@import "2-tool/animation";
+
+/*
+* base
+*/
+@import "3-base/reset";
+@import "3-base/generic";
+
+/*
+* layout
+*/
+@import "4-layout/container";
+@import "4-layout/footer";
+@import "4-layout/grid";
+@import "4-layout/header";
+
+/*
+* module
+*/
+@import "5-module/sprite/sprite"; //sprite
+@import "5-module/wp-pagenavi.scss";
+
+/*
+* utility
+*/
+@import "6-utility/utility";
+@import "6-utility/margin";
+
+/*
+* library
+*/
+@import "7-library/slick";
